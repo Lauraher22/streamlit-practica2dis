@@ -58,8 +58,8 @@ body_mass_mean = round(df_selection["body_mass_g"].mean(), 1)
 left_column, middle_column, right_column = st.columns(3)
 with left_column:
     st.text("Longitud del culmen (mm):")
-    st.subheader(f"{culmen_length_mean:}")
-    st.text("Profundidad del culmen:(mm)")
+    st.subheader(f"{culmen_length_mean}")
+    st.text("Profundidad del culmen(mm):")
     st.subheader(f"{culmen_depth_mean}")
 with middle_column:
 
