@@ -13,7 +13,7 @@ import plotly.graph_objects as go
 #@st.cache
 st.set_page_config(layout = "wide")
 
-df = pd.read_csv('penguins_clear.csv',sep=',',decimal='.')
+df = pd.read_csv('https://raw.githubusercontent.com/Lauraher22/streamlit-practica2dis/main/penguins_clear.csv',sep=',',decimal='.')
 
 
 #SIDEBAR
